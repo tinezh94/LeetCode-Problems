@@ -14,5 +14,5 @@ def isBalanced(root):
 
     return dfs(root)[0]
 
-print(isBalanced([3,9,20,null,null,15,7]))
-print(isBalanced([1,2,2,3,3,null,null,4,4]))
+# print(isBalanced([3,9,20,null,null,15,7]))
+# print(isBalanced([1,2,2,3,3,null,null,4,4]))
