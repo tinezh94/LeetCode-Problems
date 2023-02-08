@@ -9,10 +9,10 @@ def longestSubstring(s):
     for r in range(len(s)):
         while s[r] in char:
             char.remove(s[l])
-            # print('l', s[l])
+            print('l', s[l])
             l += 1
         char.add(s[r])
-        # print('r', s[r])
+        print('r', s[r])
         res = max(res, r - l + 1)
     return res
 
